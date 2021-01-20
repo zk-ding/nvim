@@ -1,6 +1,7 @@
 " ===
 " === coc.vim
 " ===
+
 " 安装coc扩展
 let g:coc_global_extensions = [
   \ 'coc-json',

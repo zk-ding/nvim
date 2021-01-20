@@ -1,6 +1,7 @@
 " ==
 " == NERDTree-git
 " ==
+
 let g:NERDTreeIndicatorMapCustom = {
   \ "Modified"  : "✹",
   \ "Staged"    : "✚",

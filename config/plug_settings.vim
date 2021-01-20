@@ -9,7 +9,6 @@ let s:sourceList = [
       \ 'markdown-preview.nvim',
       \ 'nerdtree-git-plugin',
       \ 'nerdtree',
-      \ 'tagbar',
       \ 'ultisnips',
       \ 'vim-airline-themes',
       \ 'vim-airline',
@@ -21,6 +20,8 @@ let s:sourceList = [
       \ 'vim-surround',
       \ 'vim-table-mode',
       \ 'wildfire.vim',
+      \ 'vista.vim',
+      \ 'auto-pairs',
       \]
 
 for s:item in s:sourceList
