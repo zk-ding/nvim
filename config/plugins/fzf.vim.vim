@@ -1,3 +1,3 @@
 " ==
-" == fzf.vim
+" == fzf.vim.vim
 " ==

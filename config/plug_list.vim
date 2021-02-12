@@ -30,11 +30,19 @@ Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" 撤销更改功能
+Plug 'mbbill/undotree'
+
 " Taglist 标记列表
 Plug 'liuchengxu/vista.vim'
 
+" autoformat 自动格式化
+" Plug 'google/vim-maktaba'
+" Plug 'google/vim-codefmt'
+" Plug 'Chiel92/vim-autoformat'
+
 " Error checking 错误检查
-"Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 
 " Auto Complete 自动补全
 Plug 'neoclide/coc.nvim', { 'branch': 'release'}

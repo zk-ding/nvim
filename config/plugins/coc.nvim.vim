@@ -23,7 +23,8 @@ let g:coc_global_extensions = [
   \ 'coc-texlab',
   \ 'coc-yaml',
   \ 'coc-explorer',
-  \ 'coc-snippets']
+  \ 'coc-snippets',
+  \ 'coc-rust-analyzer']
 
 " TextEdit might fail if hidden is not set.
 set hidden

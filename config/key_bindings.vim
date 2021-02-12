@@ -9,13 +9,10 @@ let mapleader=" "
 map W :w<CR>
 map Q :q<CR>
 
-map <LEADER>y "+y
-
-" Open the vimrc file anytime
-map <LEADER>rc :e ~/.vim/vimrc<CR>
+vnoremap <LEADER>y "+y   " 复制粘贴到剪贴板
 
 " Search
-map <LEADER><CR> :nohlsearch<CR>
+" map <LEADER><CR> :nohlsearch<CR>
 
 " Duplicate words
 map <LEADER>fd /\(\<\w\+\>\)\_s*\1
@@ -29,7 +26,7 @@ noremap L 5l
 " Disabling the default s key
 noremap s <nop>
 
-" Reload configuration
+" Reload configuration  刷新配置文件
 map R :source $MYVIMRC<CR>
 
 " ===
@@ -74,6 +71,7 @@ map <right> :vertical resize+5<CR>
 " Use t + new arrow keys for creating and moving the tabe
 " 打开标签页
 map tn :tabe<CR>
+map tc :tabc<CR>
 " 切换标签页
 map th :-tabnext<CR>
 map tl :+tabnext<CR>
@@ -86,3 +84,6 @@ map bh :bprev<CR>
 map bl :bnext<CR>
 map bf :bfirst<CR>
 map bd :bd<CR>
+
+" figlet
+map tf :r !figlet 

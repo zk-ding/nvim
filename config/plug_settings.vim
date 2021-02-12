@@ -22,6 +22,7 @@ let s:sourceList = [
       \ 'wildfire.vim',
       \ 'vista.vim',
       \ 'auto-pairs',
+      \ 'undotree',
       \]
 
 for s:item in s:sourceList
